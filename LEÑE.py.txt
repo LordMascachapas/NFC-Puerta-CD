@@ -1,8 +1,0 @@
-#http://www.youtube.com/watch?v=UaU-rpjrbYI
-
-import hashlib
-
-contrahechizo=raw_input('Just put it:  ')
-hashi=hashlib.md5(contrahechizo)
-print(hashi.hexdigest())
-
