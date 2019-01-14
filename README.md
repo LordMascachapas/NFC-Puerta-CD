@@ -1,8 +1,8 @@
 # NFC-Puerta-CD
 
 ## Enabling Raspberry Pi SPI
-	-raspi-config
-	-Select Interfacing Options then SPI. Select Yes when prompted
+	raspi-config
+	Select Interfacing Options then SPI. Select Yes when prompted
 	sudo reboot
 	sudo nano /boot/config.txt
 	find the line: dtparam=spi=on
